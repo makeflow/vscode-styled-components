@@ -52,15 +52,9 @@
         }
       }
     ],
-    "typescriptServerPlugins": [
-      {
-        "name": "typescript-styled-plugin"
-      }
-    ]
+    "typescriptServerPlugins": []
   },
-  "dependencies": {
-    "typescript-styled-plugin": "0.11.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "prettier": "^1.14.3",
     "prettier-cli": "^0.1.0"
