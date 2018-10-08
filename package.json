@@ -3,7 +3,7 @@
   "displayName": "vscode-styled-components",
   "description": "Syntax highlighting for styled-components",
   "version": "0.1.0",
-  "publisher": "jpoissonnier",
+  "publisher": "mf",
   "icon": "logo.png",
   "license": "MIT",
   "repository": {
