@@ -1,6 +1,8 @@
 # vscode-styled-components
 
-Syntax highlighting and IntelliSense for [styled-components](https://github.com/styled-components/styled-components).
+> This extension is based on [`styled-components/vscode-styled-components`](https://github.com/styled-components/vscode-styled-components) and has got rid of its language service because we found it interfere with typescript auto-completion. So this left us with a well-behaved extension with only highlighting feature.
+
+Syntax highlighting for [styled-components](https://github.com/styled-components/styled-components).
 
 ![Syntax highlighting in action](demo.png)
 
@@ -11,23 +13,17 @@ Uses a CSS grammar built on top of [language-sass](https://github.com/atom/langu
 Inside VSCode, press `Ctrl+P`, and enter:
 
 ```
-ext install vscode-styled-components
+ext install mf/vscode-styled-components
 ```
 
-It should be the top result.
+Install the one whose author is `Makeflow`
 
-[[Source](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)]
+[[Source](https://marketplace.visualstudio.com/items?itemName=mf.vscode-styled-components)]
 
 ## Features
 
 - Syntax highlighting for styled components in JavaScript and TypeScript.
-- Detailed CSS IntelliSense while working in styled strings.
-- Syntax error reporting.
-
-> **❗Important**: IntelliSense and language support requires VS Code 1.20+.
 
 ## Usage
 
-The styled-components extension adds highlighting and IntelliSense for styled-component template strings in JavaScript and TypeScript. It works out of the box when you use VS Code's built-in version of TypeScript.
-
-If you are [using a workspace version of typescript](https://code.visualstudio.com/Docs/languages/typescript#_using-newer-typescript-versions), you must currently configure the TS Server plugin manually by following [these instructions](https://github.com/Microsoft/typescript-styled-plugin#usage)
+The styled-components extension adds highlighting for styled-component template strings in JavaScript and TypeScript.
