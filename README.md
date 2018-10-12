@@ -1,6 +1,6 @@
 # vscode-styled-components
 
-> This extension is based on [`styled-components/vscode-styled-components`](https://github.com/styled-components/vscode-styled-components) and has got rid of its language service because we found it interfere with typescript auto-completion. So this left us with a well-behaved extension with only highlighting feature.
+> This extension is based on [`styled-components/vscode-styled-components`](https://github.com/styled-components/vscode-styled-components) and has got rid of its language service because we found it interfere with TypeScript auto-completion. So this left us with a well-behaved extension with only highlighting feature.
 
 Syntax highlighting for [styled-components](https://github.com/styled-components/styled-components).
 
